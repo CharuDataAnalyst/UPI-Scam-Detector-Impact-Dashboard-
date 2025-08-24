@@ -2,8 +2,8 @@
 
 
 ## 🚀 Project Snapshot  
-- Dataset: [Kaggle – UPI Fraud Detection](insert-link-here)  
-- Tools: **BigQuery (SQL)** + **Power BI**  
+- Dataset: [Kaggle – UPI Fraud Detection 2024]  
+- Tools: **Postgres(SQL)** + **Power BI**  
 - Goal: Spot scam transactions & show **real business impact** in one dashboard  
 
 ---
@@ -15,10 +15,10 @@ This dashboard highlights **fraud patterns** and **simulated business impact** �
 ---
 
 ## 🔎 What I Did  
-1. **SQL in BigQuery** – anomaly checks like:  
+1. **SQL in Postgres** – anomaly checks like:  
    - ₹1 repeated spam transactions  
    - Sudden high-value transfers  
-   - Location-based mismatches  
+   - Flagged fraudulent is_fraud transactions 
 
 2. **Impact Metrics** in Power BI:  
    - Loss amount 💸  
@@ -30,8 +30,10 @@ This dashboard highlights **fraud patterns** and **simulated business impact** �
 
 ## 📊 Key Insights  
 - Detected **₹1 scam loops (200+ in an hour)** 🕒  
-- Tier-2 cities showed higher fraud hotspots 📍  
-- **Simulated estimate: ~₹1.2M preventable losses** 🚨  
+- Tier-2 cities showed higher fraud hotspots 📍
+- Fraud mostly concentrated in **specific merchant categories**
+- **Estimated preventable losses: 18% reduction in false negatives** 🚨
+- 
 
 ---
 
