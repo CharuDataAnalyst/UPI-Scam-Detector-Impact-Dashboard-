@@ -25,8 +25,11 @@ This dashboard highlights **fraud patterns** and **simulated business impact** �
    - % Fraudulent transactions  
    - High-risk merchants/regions  
    - Prevention savings  
-
 ---
+## 📊 Google Search Trend Anomaly Detector - Dashboard
+
+![Dashboard](https://github.com/CharuDataAnalyst/UPI-Scam-Detector-Impact-Dashboard-/blob/main/Upi%20dashboard.png)
+
 
 ## 📊 Key Insights  
 - Detected **₹1 scam loops (200+ in an hour)** 🕒  
